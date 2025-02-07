@@ -6,18 +6,28 @@ body {
 
 .sidebar {
     width: 250px;
-    background: #f8f9fa;
+    background: white;
     padding: 20px;
     height: 100vh;
+    padding: 30px;
 }
 
 .profile {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
 }
 
-.profile img {
-    width: 80px;
-    border-radius: 50%;
+.profile i {
+    width: 40px;
+}
+
+.profileDetail p{
+    margin: 1px;
+}
+.profileDetail h3{
+    margin: 1px;
 }
 
 .sidebar nav ul {
@@ -37,24 +47,26 @@ body {
     width: 100%;
     padding: 10px;
     cursor: pointer;
+    border-radius: 7px;
 }
 
 .main-content {
     flex: 1;
-    padding: 20px;
 }
 
 .cards {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .card {
     flex: 1;
-    padding: 20px;
+    padding: 50px;
     color: white;
     border-radius: 10px;
+    margin-right: 10px;
 }
+
 
 .purple { background: #a855f7; }
 .blue { background: #2563eb; }
@@ -88,3 +100,61 @@ th, td {
 
 .pending { background: #facc15; }
 .approved { background: #22c55e; }
+
+.logo{
+    color: aqua;
+    font-weight: 900;
+    text-align: center;
+    font-size: 26px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.headerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    height: 70px;
+    align-items: center;
+}
+
+.headerSection input{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.listItems li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+    color: aqua;
+    font-weight: bold;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-info p{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.section{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.dashboard-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
