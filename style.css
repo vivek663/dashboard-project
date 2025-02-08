@@ -84,8 +84,13 @@ body {
 }
 
 .table-section {
-    margin-top: 20px;
     background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.table-section h2{
+    margin: 10px;
 }
 
 table {
@@ -159,12 +164,7 @@ th, td {
 
 .user-info p{
     margin-right: 40px;
-    margin-left: 10px;
-}
-
-.section{
-    padding-left: 30px;
-    padding-top: 30px;
+    margin-left: 5px;
 }
 
 .dashboard-section{
